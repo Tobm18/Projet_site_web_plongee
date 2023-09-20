@@ -1,108 +1,73 @@
 body {
     margin: 0%;
+    background: linear-gradient(to bottom, rgb( 0, 0, 70) 0%, rgb( 0, 0, 80) 100%);
 }
 
 .burger_icon {
-    width:80%;
-    margin-left: 10%;
-    margin-top: 20%;
+    width: 5%;
 }
 
-.bande {
-    z-index: 3;
-    position: fixed;
-    margin-left: 0%;
-    height: 100%;
-    background-color: rgb(230, 230, 230);    
-    width: 4%;
-    top: 0;
-}
-
-h1 {
-    color: rgb(233, 233, 233);
-    margin-top: 0;
-    margin-left: 20px;
-    line-height: 175px;
-    position: static;
-    font-family: sans-serif;
-    font-size: 250%;
-}
-
-.banner {
-    position: fixed;
-    background: linear-gradient( rgb(63, 63, 255) 0%, rgb(150, 215, 255) 100%);
-    width: 96%;
-    margin-left: 4%;
-    height: 150px;
-    margin-top: 0%;
-    z-index: 2;
-}
-
-/* menu burger */
 .sidenav {
-    height: 100%;
-    width: 250px;
-    position: fixed;
-    z-index: 3;
-    top: 0;
-    left: -250px;
-    background-color: rgb(230, 230, 230);
-    padding-top: 60px;
-    transition: left 0.5s ease;
+  height:5%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 5%;
+  background-color: #000755;
+  text-align: center;
+  transition: top 0.5s ease;
+  list-style-type: none;
 }
   
-/* lien menu burger */
 .sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    font-family: sans-serif;
-    color: rgb(0, 0, 0);
-    display: block;
-    transition: 0.3s;
-}
-
-.sidenav a:hover {
-    color: rgb(156, 156, 156);
+  text-decoration: underline;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 150%;
+  color: #ffffff;
+  transition: 0.3s;
+  padding-left: 3%;
+  padding-right: 3%;
 }
   
-.sidenav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+.sidenav a:hover {
+  color: #6f6f6f;
 }
   
 .sidenav.active {
-    left: 0;
+  top: 10%;
 }
-  
+ 
 .sidenav .close {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-}
-  
-.page {
-    width: 100%;
-    background-image: url(background_materiel.jpg);
-    background-repeat: no-repeat;
-    position: fixed;
-    background-size:contain;
-    margin-top: 150px;
-    margin-left: 4%;
-    padding-bottom: 100%;
-    height: 100%;
+  position: absolute;
+  right: 25px;
+  bottom: 25%;
+  font-size: 36px;
+  text-decoration: none;
 }
 
-.content_page {
-    position: absolute;
-    z-index: 1;
-    margin-left: 4%;
-    margin-top: 150px;
-    background-color: rgba(190, 225, 255, 0.538);
+.banner {
+  position: fixed;
+  width: 100%;
+  height: 10%;
+  background-color: #000755;
+  margin-top: 0px;
+  z-index: 2;
 }
 
-h2 {
-    background-color: white;
+.title_page {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+  color: #ffffff;
+  position: fixed;
+  width: 100%;
+  height: 10%;
+  z-index: 3;
+  display: inline;
+  text-align: center;
+}
+
+.title_page p {
+  margin-top: 1%;
+  margin-right: 11%;
 }
