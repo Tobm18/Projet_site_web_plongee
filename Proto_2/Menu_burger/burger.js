@@ -4,9 +4,11 @@ var closeBtn = document.getElementById("closeBtn");
 
 openBtn.onclick = navAction
 closeBtn.onclick = closeNav;
+openBtn.addEventListener('click', toggleNav);
 
-function navAction() {
-  if (sidenav.classList.contains("active")) {
+function navAction(event) {
+  event.preventDefault();
+  if (sidenav.classList.contains("open")) {
     closeNav();
   } else {
     openNav();
@@ -14,9 +16,9 @@ function navAction() {
 }
 
 function openNav() {
-  sidenav.classList.add("active");
+  sidenav.classList.add("open");
 }
 
 function closeNav() {
-  sidenav.classList.remove("active");
+  sidenav.classList.remove("open");
 }
