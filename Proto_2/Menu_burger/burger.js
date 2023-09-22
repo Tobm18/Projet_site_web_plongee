@@ -1,14 +1,12 @@
-var sidenav = document.getElementById("mySidenav");
-var openBtn = document.getElementById("openBtn");
-var closeBtn = document.getElementById("closeBtn");
+var topnav = document.getElementById("topNav");
+var banner = document.getElementById("banner")
+var clickMenu = document.getElementById("openBtn");
 
-openBtn.onclick = navAction
-closeBtn.onclick = closeNav;
-openBtn.addEventListener('click', toggleNav);
+clickMenu.onclick = navAction
 
 function navAction(event) {
   event.preventDefault();
-  if (sidenav.classList.contains("open")) {
+  if (topnav.classList.contains("open")) {
     closeNav();
   } else {
     openNav();
@@ -16,9 +14,11 @@ function navAction(event) {
 }
 
 function openNav() {
-  sidenav.classList.add("open");
+  topnav.classList.add("open");
+  banner.classList.add("open");
 }
 
 function closeNav() {
-  sidenav.classList.remove("open");
+  topnav.classList.remove("open");
+  banner.classList.remove("open");
 }
