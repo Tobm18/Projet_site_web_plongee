@@ -13,7 +13,6 @@ position: relative;
 .burger_icon {
 width: 5%;
 color: white;
-top: 2%;
 padding-left: 1%;
 float: left;
 }
@@ -30,6 +29,8 @@ text-align: center;
 transition: top 0.5s ease;
 list-style-type: none;
 box-shadow: 0px 0px 5px black;
+border-bottom-left-radius: 100%;
+border-bottom-right-radius: 100%;
 }
 
 .topnav a {
@@ -44,6 +45,15 @@ padding-right: 3%;
 
 .topnav a:hover {
 color: #6f6f6f;
+}
+
+.topnav .active {
+  color: #6e6e6e;
+  text-decoration: none;
+}
+
+.topnav .active:hover {
+  color: #ffffff;
 }
 
 .topnav.open {
@@ -70,7 +80,12 @@ font-family: Arial, Helvetica, sans-serif;
 font-size: 250%;
 color: #ffffff;
 padding-top: 1%;
-padding-right: 6%;
+}
+
+.plongeur {
+float: right;
+width: 6%;
+padding-right: 1%;
 }
 
 .content {
