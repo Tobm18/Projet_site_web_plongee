@@ -1,135 +1,79 @@
-* {
-  margin: 0%;
-}
-
-html, body {
-height: 100%;
-}
-
-body {
-position: relative;
-}
-
-.burger_icon {
-width: 5%;
-color: white;
-padding-left: 1%;
-float: left;
-}
-
-.topnav {
-  height:5%;
-  width: 100%;
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: -5%;
-  background-color: #000755;
-  transition: top 0.5s ease;
-  list-style-type: none;
-  box-shadow: 0px 0px 5px black;
-  border-bottom-left-radius: 100%;
-  border-bottom-right-radius: 100%;
+.flex_content {
   display: flex;
-  justify-content: center;
 }
 
-.topnav a {
-text-decoration: underline;
-font-family: Arial, Helvetica, sans-serif;
-font-size: 150%;
-color: #ffffff;
-transition: 0.3s;
-padding-left: 3%;
-padding-right: 3%;
+.txt {
+  width: 50%;
 }
 
-.topnav a:hover {
-color: #6f6f6f;
+.illustration {
+  width: 50%;
 }
 
-.topnav .active {
-  color: #6e6e6e;
-  text-decoration: none;
+.filigrane {
+  width: 100%;
 }
 
-.topnav .active:hover {
-  color: #ffffff;
+.descript {
+  background-color: rgba(255, 255, 255, 0.267);
+  padding: 4%;
+  border-radius: 15px;
+  margin: 3%;
+  margin-top: 6%;
+  font-size: 18px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.topnav.open {
-top: 10%;
+.intro {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 18px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.banner.open {
-box-shadow: 0px 0px 0px black;
+h1 {
+  margin-top: 3%;
+  margin-bottom: 2%;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
-.banner {
-position: fixed;
-width: 100%;
-height: 10%;
-background-color: #000755;
-margin-top: 0px;
-z-index: 2;
-box-shadow: 0px 0px 5px black ;
-text-align: center;
+.niveau {
+  margin-top: 2%;
+  margin-bottom: 3%;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.title_page {
-font-family: Arial, Helvetica, sans-serif;
-font-size: 250%;
-color: #ffffff;
-padding-top: 1%;
+.filigrane_phone {
+  display: none;
 }
 
-.plongeur {
-float: right;
-width: 6%;
-padding-right: 1%;
-}
+@media screen and (max-width: 800px) {
+  .illustration {
+    width: 0;
+  }
 
-.content {
-width: 100%;
-top: 10%;
-position: absolute;
-background: linear-gradient(to bottom, rgb( 0, 0, 120) 0%,rgb( 0, 0, 70)  50%, rgb( 0, 0, 50) 100%);
-}
+  .txt {
+    width: 100%;
+  }
 
-.corp {
-color: white;
-margin-bottom: 50px;
-}
+  .filigrane_phone {
+    display: block;
+    width: 100%;
+  }
 
-footer {
-background: linear-gradient(to bottom, rgb(0, 0, 30) 0%, rgb(0, 0, 37) 100%);
-width: 100%;
-height: 50px;
-position: absolute;
-bottom: 0;
-text-align: center;
-}
-
-.logo_uca {
-width: 50px;
-padding-left: 4%;
-}
-
-.footer_text {
-color: rgb(140, 140, 140);
-font-size: 15px;
-float: left;
-text-align: center;
-padding-left: 1%;
-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-padding-top: 7px;
-}
-
-.nom {
-float: right;
-color: rgb(140, 140, 140);
-text-align: left;
-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-padding-right: 1%;
-padding-top: 7px;
+  .flex_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
