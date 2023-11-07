@@ -33,7 +33,7 @@ h2 {
 
 .pression_eau_img {
     width: 70%;
-    margin: 15%;
+    margin: 13%;
     padding: 1%;
     background-color: rgba(0, 255, 255, 0.71);
     border-radius: 15px;
@@ -41,7 +41,7 @@ h2 {
 }
 
 .pression-c h2 {
-    text-align:right;
+    text-align:left;
     margin-right: 5%;
     font-size: 50px;
 }
@@ -54,7 +54,9 @@ h2 {
 
 .pression_corps_img {
     width: 70%;
-    margin: 15%;
+    margin: 13%;
+    margin-bottom: 5%;
+    margin-top: 5%;
     padding: 1%;
     background-color: rgba(0, 255, 255, 0.71);
     border-radius: 15px;
@@ -75,7 +77,8 @@ h2 {
 
 .table_plongee_img {
     width: 70%;
-    margin: 15%;
+    margin: 13%;
+    margin-top: 5%;
     padding: 1%;
     background-color: rgba(0, 255, 255, 0.71);
     border-radius: 15px;

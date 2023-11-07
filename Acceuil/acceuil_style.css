@@ -1,5 +1,5 @@
 .content {
-    height: calc(100% - 75px);
+    min-height: calc(100% - 75px);
 }
 
 .corp {
@@ -47,6 +47,7 @@ h1 {
     background-size: cover;
     border-radius: 20px;
     transition: 2s;
+    margin-bottom: 15%;
 }
 
 .btn_git:hover {
@@ -56,7 +57,7 @@ h1 {
 .photo1,
 .photo2 {
     border-radius: 35px;
-    width: 500px;
+    width: 25%;
     position: absolute;
     transition: 2s;
 }
@@ -75,7 +76,7 @@ h1 {
 .photo1:hover,
 .photo2:hover {
     z-index: 1;
-    width: 550px;
+    width: 29%;
 }
 
 .photo_phone1,
