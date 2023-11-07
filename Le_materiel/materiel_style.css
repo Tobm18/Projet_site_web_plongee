@@ -75,7 +75,7 @@ h2 {
     margin-right: 8%;
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1200px) {
     .indispensables,
     .optionel {
         display: flex;
@@ -91,5 +91,27 @@ h2 {
     .optionel div {
         max-width: 70%;
         margin-bottom: 10%;
+    }
+
+    .intro {
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 200%;
+    }
+
+    h1 {
+        margin-left: 0;
+        text-align: center;
+        font-size: 370%;
+    }
+
+    h2 {
+        font-size: 125%;
+    }
+
+    .optionel div,
+    .indispensables div {
+        font-size: 200%;
+        text-align: center;
     }
 }
