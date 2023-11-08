@@ -206,8 +206,12 @@
     }
 
     .burger_li {
-      width: 210px;
+      width: 170px;
       margin-left: 2%;
+    }
+
+    .burger_icon {
+      width: 170px;
     }
 
     .plongeur {
