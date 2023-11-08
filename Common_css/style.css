@@ -39,13 +39,13 @@
   }
   
   .topnav a {
-    text-decoration: underline;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 150%;
     color: #ffffff;
     transition: 0.3s;
     padding-left: 3%;
     padding-right: 3%;
+    text-decoration: none;
   }
   
   .topnav a:hover {
@@ -54,7 +54,6 @@
   
   .topnav .active {
     color: #6e6e6e;
-    text-decoration: none;
   }
   
   .topnav .active:hover {
@@ -102,7 +101,7 @@
     width: 100%;
     top: 75px;
     position: absolute;
-    background: linear-gradient(to bottom, rgb( 0, 0, 120) 0%,rgb( 0, 0, 70)  50%, rgb( 0, 0, 50) 100%);
+    background: linear-gradient(to bottom, rgb(0, 0, 170) 0%,rgb( 0, 0, 90)  40%, rgb( 0, 0, 50) 100%);
   }
   
   .corp {
