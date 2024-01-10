@@ -51,7 +51,7 @@ h1 {
 }
 
 .btn_git:hover {
-    background-image: url(../Image/github_white.jpg);
+    filter: invert(100%);
 }
 
 .photo1,
